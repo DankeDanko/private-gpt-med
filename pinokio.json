@@ -1,0 +1,28 @@
+{
+  "name": "privategpt",
+  "description": "PrivateGPT oficial con LM Studio local",
+  "requirements": [
+    {
+      "type": "python",
+      "version": ">=3.10"
+    },
+    {
+      "type": "pip",
+      "packages": [
+        "-r requirements.txt"
+      ]
+    }
+  ],
+  "scripts": {
+    "start": [
+      "python scripts/webserver.py"
+    ]
+  },
+  "expose": [
+    {
+      "type": "web",
+      "name": "WebUI",
+      "url": "http://localhost:8001"
+    }
+  ]
+}
