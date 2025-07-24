@@ -1,0 +1,7 @@
+privategpt
+uvicorn
+fastapi
+python-multipart
+aiofiles
+pydantic
+watchdog
