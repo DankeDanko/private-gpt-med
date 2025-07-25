@@ -9,7 +9,7 @@
     {
       "type": "pip",
       "packages": [
-        "-r requirements.txt"
+        "privategpt"
       ]
     }
   ],
